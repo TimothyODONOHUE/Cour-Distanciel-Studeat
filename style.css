@@ -23,7 +23,11 @@ bottom:18px;
 }
 
 
-
+.icons {
+    display: flex;
+    align-items:center;
+    
+}
 .bouttoncommander {
     display:flex;
     justify-content: center;
@@ -39,7 +43,7 @@ bottom:18px;
 
 .taille {
     display: flex;
-    margin-left: 30px;
+    margin-left: 45px;
     font-family: 'Poppins', sans-serif;
     color:white;
 }
@@ -61,14 +65,13 @@ bottom:18px;
     font-family: 'Poppins', sans-serif;
     display:flex;
     font-size:20px;
-    margin-right:30px;
+    margin-top:200px;
 }
 
 
 .tacos {
     color:white;
     font-family: 'Poppins', sans-serif;
-    display:flex;
     font-size:20px;
     margin-left:30px;
 }
@@ -85,7 +88,7 @@ bottom:18px;
 
 .panier {
     margin-left: 160px;
-    margin-top:0px;
+    margin-top:12px;
     height:50px;
 }
 
@@ -97,7 +100,7 @@ bottom:18px;
 
 .viande {
     display: flex;
-    margin-left: 30px;
+    margin-left: 45px;
     font-family: 'Poppins', sans-serif;
     color:white;
 }
@@ -109,21 +112,32 @@ bottom:18px;
 
 .sauce {
     display: flex;
-    margin-left: 30px;
+    margin-left: 45px;
     font-family: 'Poppins', sans-serif;
     color:white;
 }
 
-.totaltitre {
+.total {
     display: flex;
     margin-left: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color:white;
+    font-size:20px;
 }
 
 .saucefromagère {
     display: flex;
-    margin-left: 30px;
+    margin-left: 45px;
     font-family: 'Poppins', sans-serif;
     color:white;
 }
+
+.nombrepanier {
+    display: flex;
+    align-items:center;
+    position:relative;
+    top:18px;
+    left:15px;
+
+}
+
