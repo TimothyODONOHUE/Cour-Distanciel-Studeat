@@ -1,1 +1,1 @@
-# Cour-Distanciel-Studeat
+# Cours-Distanciel-Studeat
