@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
 
 body {
-background-image: url('.//img/IMG-tacos.png');
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+background-color:#020106;
 height: 100vh;
 }
 
@@ -29,7 +26,7 @@ bottom:18px;
 
 .bouttoncommander {
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     background-color:#FFF57B ;
     height:75px;
     width:230px;
@@ -39,57 +36,46 @@ bottom:18px;
    
 }
 
-.commander {
+
+.taille {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
 }
 
 
-
-.Totaltitre {
+.tacostitre {
     color:white;
     font-family: 'Poppins', sans-serif;
     display:flex;
-    font-size:18px;
+    font-size:20px;
     position:relative;
-    bottom:3px;
-    margin-right: 12px;
-    
+    margin-right:30px;
 }
 
-.Total {
-    
+.commander {
     display:flex;
     justify-content: center;
-    margin-top: 12px;
-    
-}
-
-
-.etoiles {
+    color:white;
+    font-family: 'Poppins', sans-serif;
     display:flex;
-    height:19px;
-    width:120px;
-    
-    
+    font-size:20px;
+    margin-right:30px;
 }
 
-.note {
+
+.tacos {
+    color:white;
+    font-family: 'Poppins', sans-serif;
     display:flex;
-    
+    font-size:20px;
+    margin-left:30px;
 }
 
-.img-tacos {
-    position: relative;
-    right:250px;
-    
-   
+.jaune{ 
+    color: #FFF57B;
 }
-
-
-.jaune{ color:#F3C892 ;}
 
 .flèche {
     margin-left:25px;
@@ -109,9 +95,35 @@ bottom:18px;
 }
 
 
-.Viande {
+.viande {
     display: flex;
     margin-left: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+.orange {
+    color:#F3C892 ;
+    
+}
+
+.sauce {
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+.totaltitre {
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+.saucefromagère {
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
     color:white;
 }
